@@ -32,6 +32,27 @@
 - **Android Gradle Plugin**: 8.1.0
 - **Gradle wrapper**: 8.3
 
+## Dependencies & Configuration
+
+This package relies on the following core dependencies. Please review their documentation for any specific platform configurations:
+
+| Package | Purpose |
+|---------|---------|
+| [easy_image_viewer](https://pub.dev/packages/easy_image_viewer) | Image viewer with zoom functionality for displaying network images. |
+| [flutter_cached_pdfview](https://pub.dev/packages/flutter_cached_pdfview) | PDF viewer with built-in caching for displaying network PDFs. |
+
+### Important Configuration Notes
+
+#### easy_image_viewer
+
+- **Android**: No additional configuration required. Works out of the box with standard Flutter setup.
+- **iOS**: No additional configuration required. Works out of the box with standard Flutter setup.
+
+#### flutter_cached_pdfview
+
+- **Android**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
+- **iOS**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
+
 ## Permissions Required
 
 - **Android**: INTERNET permission
