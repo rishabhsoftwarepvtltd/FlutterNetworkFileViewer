@@ -1,5 +1,7 @@
 
-# Network File Viewer
+# RSPL Network File Viewer
+
+[![pub package](https://img.shields.io/pub/v/rspl_network_file_viewer.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Flutter](https://img.shields.io/badge/Flutter-3.24.0%2B-02569B.svg?logo=flutter&logoColor=white)](https://flutter.dev) [![Dart](https://img.shields.io/badge/Dart-3.4.0%2B-0175C2.svg?logo=dart&logoColor=white)](https://dart.dev) [![Coverage](https://img.shields.io/badge/coverage-100%25-success.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer) [![Platform](https://img.shields.io/badge/platform-android%20|%20ios-blue.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer)
 
 `RSPLNetworkFileViewer` is a customizable Flutter widget designed to display files like images and PDFs directly from a network source. It supports various customization options for appearance, headers, and error handling.
 
@@ -29,6 +31,27 @@
 - **Kotlin**: 1.8.22
 - **Android Gradle Plugin**: 8.1.0
 - **Gradle wrapper**: 8.3
+
+## Dependencies & Configuration
+
+This package relies on the following core dependencies. Please review their documentation for any specific platform configurations:
+
+| Package | Purpose |
+|---------|---------|
+| [easy_image_viewer](https://pub.dev/packages/easy_image_viewer) | Image viewer with zoom functionality for displaying network images. |
+| [flutter_cached_pdfview](https://pub.dev/packages/flutter_cached_pdfview) | PDF viewer with built-in caching for displaying network PDFs. |
+
+### Important Configuration Notes
+
+#### easy_image_viewer
+
+- **Android**: No additional configuration required. Works out of the box with standard Flutter setup.
+- **iOS**: No additional configuration required. Works out of the box with standard Flutter setup.
+
+#### flutter_cached_pdfview
+
+- **Android**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
+- **iOS**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
 
 ## Permissions Required
 
@@ -262,5 +285,4 @@ This package is licensed under the MIT License.
 
 ## Made by RSPL Team
 
-[Github](https://github.com) • [Twitter](https://twitter.com) • [Pub](https://pub.dev) • [LinkedIn](https://linkedin.com)
-
+[Github](https://github.com/rishabhsoftwarepvtltd) • [Website](https://www.rishabhsoft.com/services/mobile-app-development)
