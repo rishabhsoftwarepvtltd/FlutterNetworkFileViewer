@@ -32,27 +32,6 @@
 - **Android Gradle Plugin**: 8.1.0
 - **Gradle wrapper**: 8.3
 
-## Dependencies & Configuration
-
-This package relies on the following core dependencies. Please review their documentation for any specific platform configurations:
-
-| Package | Purpose |
-|---------|---------|
-| [easy_image_viewer](https://pub.dev/packages/easy_image_viewer) | Image viewer with zoom functionality for displaying network images. |
-| [flutter_cached_pdfview](https://pub.dev/packages/flutter_cached_pdfview) | PDF viewer with built-in caching for displaying network PDFs. |
-
-### Important Configuration Notes
-
-#### easy_image_viewer
-
-- **Android**: No additional configuration required. Works out of the box with standard Flutter setup.
-- **iOS**: No additional configuration required. Works out of the box with standard Flutter setup.
-
-#### flutter_cached_pdfview
-
-- **Android**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
-- **iOS**: Uses native PDF rendering. No additional permissions or configuration required beyond standard Flutter setup.
-
 ## Permissions Required
 
 - **Android**: INTERNET permission
@@ -250,38 +229,34 @@ rspl_network_file_viewer/
 
 For a complete example, see the [example] directory.
 
-## Contributing
-
-Contributions welcome! Please read:
-
-• [CONTRIBUTING.md](CONTRIBUTING.md) – setup, branch strategy, commit convention
-
-• [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-
-• Run checks before push:
-  - `dart format . --set-exit-if-changed`
-  - `flutter analyze`
-  - `flutter test --coverage`
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md).
-
-## User Privacy Notes
-
-• This package is not collecting any user info or not sharing any data with third party services.
-
-## Author, Maintainers & Acknowledgements
-
-• Thanks to the Flutter team & the packages that inspired the structure.
-
 ## Keywords and Tags
 
 flutter dart network file-viewer pdf-viewer image-viewer document-viewer network-file cached-pdf image-zoom file-display http-headers authentication modal-viewer
 
+## Contributing
+
+Contributions welcome! Please read:
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) – setup, branch strategy, commit convention
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+
+Run checks before push:
+- `dart format .`
+- `flutter analyze`
+- `flutter test`
+
+## User Privacy Notes
+
+- This package does not collect any user information or share data with third-party services.
+
+## Author, Maintainers & Acknowledgements
+
+- Developed by **[Rishabh Software](https://www.rishabhsoft.com/)**.
+- Thanks to the Flutter community for the amazing packages used in this project.
+
 ## License
 
-This package is licensed under the MIT License.
+This package is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Made by RSPL Team
 
