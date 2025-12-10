@@ -1,12 +1,14 @@
-## 1.0.1
+# Changelog
 
-- Renamed FileType to NetworkFileType.
-- Restricted the default header title to a maximum of 2 lines.
+All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 1.0.0
+## [0.0.1] 
 
-* 🎉 : Introduced Network File Viewer component.
+### Added
+* Introduced Network File Viewer component.
 * Features implemented in this release:
   1. Supports multiple file types, including images and PDFs.
   2. Customizable UI with background color, content padding, and optional custom header.
