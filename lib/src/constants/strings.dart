@@ -7,6 +7,7 @@ class NetworkFileViewerStrings {
   static const String errorMessage = 'Something went wrong....';
 
   // Network file viewer strings
-  static const String fileNameRequiredMessage = 'fileName is required if customHeaderWidget is null';
+  static const String fileNameRequiredMessage =
+      'fileName is required if customHeaderWidget is null';
   static const String progressPlaceholder = '%';
 }

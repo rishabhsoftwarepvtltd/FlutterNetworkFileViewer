@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rspl_network_file_viewer/src/constants/strings.dart' show NetworkFileViewerStrings;
+import 'package:rspl_network_file_viewer/src/constants/strings.dart'
+    show NetworkFileViewerStrings;
 
 /// A default error widget displayed when file loading fails in [NetworkFileViewer].
 ///

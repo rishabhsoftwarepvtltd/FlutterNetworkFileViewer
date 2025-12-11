@@ -49,13 +49,15 @@ void main() {
 
       // Assert
       final textWidget = tester.widget<Text>(textFinder);
-      expect(textWidget.style?.fontWeight, FontWeight.w700); // Validate font weight
+      expect(textWidget.style?.fontWeight,
+          FontWeight.w700); // Validate font weight
       expect(textWidget.style?.fontSize, 20); // Validate font size
       expect(textWidget.style?.color, Colors.blue); // Validate text color
     },
   );
 
-  testWidgets('DefaultHeaderWidget_whenCloseButtonPressedAndNavigatorCannotPop_shouldNotThrowError',
+  testWidgets(
+      'DefaultHeaderWidget_whenCloseButtonPressedAndNavigatorCannotPop_shouldNotThrowError',
       (WidgetTester tester) async {
     // Arrange
     await tester.pumpWidget(
@@ -94,7 +96,8 @@ void main() {
       final iconFinder = find.byIcon(Icons.close);
 
       // Assert
-      expect(iconFinder, findsOneWidget); // Check if the close icon is displayed
+      expect(
+          iconFinder, findsOneWidget); // Check if the close icon is displayed
     },
   );
 
@@ -115,7 +118,8 @@ void main() {
 
       // Assert
       final iconButton = tester.widget<IconButton>(iconButtonFinder);
-      expect(iconButton.splashRadius, 24.0); // Validate splash radius of the close button
+      expect(iconButton.splashRadius,
+          24.0); // Validate splash radius of the close button
     },
   );
 }

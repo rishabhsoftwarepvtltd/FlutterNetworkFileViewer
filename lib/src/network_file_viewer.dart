@@ -1,10 +1,15 @@
 import 'package:easy_image_viewer/easy_image_viewer.dart' show EasyImageView;
 import 'package:flutter/material.dart';
-import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart' show PDF, PDFViewTypes;
-import 'package:rspl_network_file_viewer/src/constants/strings.dart' show NetworkFileViewerStrings;
-import 'package:rspl_network_file_viewer/src/enum/network_file_type.dart' show NetworkFileType;
-import 'package:rspl_network_file_viewer/src/widgets/default_error_widget.dart' show DefaultErrorWidget;
-import 'package:rspl_network_file_viewer/src/widgets/default_header_widget.dart' show DefaultHeaderWidget;
+import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart'
+    show PDF, PDFViewTypes;
+import 'package:rspl_network_file_viewer/src/constants/strings.dart'
+    show NetworkFileViewerStrings;
+import 'package:rspl_network_file_viewer/src/enum/network_file_type.dart'
+    show NetworkFileType;
+import 'package:rspl_network_file_viewer/src/widgets/default_error_widget.dart'
+    show DefaultErrorWidget;
+import 'package:rspl_network_file_viewer/src/widgets/default_header_widget.dart'
+    show DefaultHeaderWidget;
 
 /// A versatile viewer for loading and displaying files such as images or PDFs from a network source.
 ///
@@ -72,7 +77,9 @@ class NetworkFileViewer {
     this.errorWidget,
   }) {
     // Assertion to ensure fileName is provided if customHeaderWidget is null
-    assert(customHeaderWidget != null || (fileName != null && fileName!.isNotEmpty),
+    assert(
+        customHeaderWidget != null ||
+            (fileName != null && fileName!.isNotEmpty),
         NetworkFileViewerStrings.fileNameRequiredMessage);
   }
 
@@ -95,7 +102,8 @@ class NetworkFileViewer {
       final imageProvider = Image.network(
         fileUrl,
         headers: customHttpHeaders,
-        errorBuilder: (context, error, stackTrace) => errorWidget ?? const DefaultErrorWidget(),
+        errorBuilder: (context, error, stackTrace) =>
+            errorWidget ?? const DefaultErrorWidget(),
       );
 
       bodyContentWidget = EasyImageView.imageWidget(
