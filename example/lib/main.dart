@@ -93,7 +93,9 @@ class _FileCard extends StatelessWidget {
         child: ListTile(
           leading: Icon(icon),
           title: Text(title),
-          subtitle: (subtitle != null && subtitle!.isNotEmpty) ? Text(subtitle!) : null,
+          subtitle: (subtitle != null && subtitle!.isNotEmpty)
+              ? Text(subtitle!)
+              : null,
           onTap: () => _showFileViewer(context),
         ),
       ),
