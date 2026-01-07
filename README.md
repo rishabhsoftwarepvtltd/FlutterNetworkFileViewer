@@ -1,9 +1,9 @@
 
 # RSPL Network File Viewer
 
-[![pub package](https://img.shields.io/pub/v/rspl_network_file_viewer.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Flutter](https://img.shields.io/badge/Flutter-3.24.0%2B-02569B.svg?logo=flutter&logoColor=white)](https://flutter.dev) [![Dart](https://img.shields.io/badge/Dart-3.4.0%2B-0175C2.svg?logo=dart&logoColor=white)](https://dart.dev) [![Coverage](https://img.shields.io/badge/coverage-100%25-success.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer) [![Platform](https://img.shields.io/badge/platform-android%20|%20ios-blue.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer)
+[![pub package](https://img.shields.io/pub/v/rspl_network_file_viewer.svg)](https://pub.dev/packages/rspl_network_file_viewer) [![License: Rishabh Software](https://img.shields.io/badge/License-Rishabh%20Software-blue.svg)](LICENSE) [![Flutter](https://img.shields.io/badge/Flutter-3.24.0%2B-02569B.svg?logo=flutter&logoColor=white)](https://flutter.dev) [![Dart](https://img.shields.io/badge/Dart-3.4.0%2B-0175C2.svg?logo=dart&logoColor=white)](https://dart.dev) [![Coverage](https://img.shields.io/badge/coverage-100%25-success.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer) [![Platform](https://img.shields.io/badge/platform-android%20|%20ios-blue.svg)](https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer)
 
-`RSPLNetworkFileViewer` is a customizable Flutter widget designed to display files like images and PDFs directly from a network source. It supports various customization options for appearance, headers, and error handling.
+This is a customizable Flutter widget designed to display files like images and PDFs directly from a network source. It supports various customization options for appearance, headers, and error handling.
 
 ## Features
 - Supports multiple file types, including images and PDFs.
@@ -15,6 +15,15 @@
 <img src="screenshots/pdfView.png" width="300" />   <img src="screenshots/imageView.png" width="300" />
 <img src="screenshots/errorView.png" width="300" />
 
+
+## Dependencies
+
+This package leverages the following pub.dev packages to provide its core functionality:
+
+| Package | Purpose |
+|---------|---------|
+| [easy_image_viewer](https://pub.dev/packages/easy_image_viewer) | Used for rendering images with interactive double-tap zoom and pinch-to-zoom gestures |
+| [flutter_cached_pdfview](https://pub.dev/packages/flutter_cached_pdfview) | Used for displaying PDF documents with built-in caching for offline access and improved performance |
 
 ## Platform Support
 
@@ -72,7 +81,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  rspl_network_file_viewer: ^1.0.1
+  rspl_network_file_viewer: ^1.0.0
 ```
 
 Then run:
@@ -256,8 +265,22 @@ Run checks before push:
 
 ## License
 
-This package is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This package is licensed under the **Rishabh Software Source Available License (Non-Commercial) V.1**.
 
-## Made by RSPL Team
+- ✅ Free for personal projects, learning, academic purposes, and evaluation
+- ✅ You may modify and fork for non-commercial use
+- ❌ Commercial use requires a separate license
+
+For licensing inquiries, refer to [LICENSE](LICENSE) for contact details.
+
+## Made by Rishabh Software Team
 
 [Github](https://github.com/rishabhsoftwarepvtltd) • [Website](https://www.rishabhsoft.com/services/mobile-app-development)
+
+## Contact
+
+Have questions, suggestions, or feedback? We'd love to hear from you!
+
+📧 **Email**: [opensource@rishabhsoft.com](mailto:opensource@rishabhsoft.com)
+
+🌐 **Contact Us**: https://www.rishabhsoft.com/contact-us
