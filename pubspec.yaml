@@ -1,7 +1,7 @@
 name: rspl_network_file_viewer
-description: "RSPLNetworkFileViewer is a customizable Flutter widget designed to display files like images and PDFs directly from a network source. It supports various customization options for appearance, headers, and error handling"
-version: 0.0.1
-license: MIT
+description: "RSPLNetworkFileViewer is a customizable Flutter widget for displaying network images and PDFs with flexible UI, headers, and error handling."
+version: 1.0.0
+license: LicenseRef-Rishabh-Software-Non-Commercial-1.0
 homepage: https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer
 repository: https://github.com/rishabhsoftwarepvtltd/FlutterNetworkFileViewer
 
